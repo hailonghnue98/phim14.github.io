@@ -1,0 +1,614 @@
+body{
+	background-color:#141414; 
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	margin:0;
+}
+#timkiem_button{
+	cursor:pointer;
+}
+#top_table{
+	width:960px;
+	padding-top:10px;
+}
+#top_table a{
+	color:white;
+	font-family:arial;
+	font-size:12px;				
+}
+#top_table a:hover{
+	text-decoration:underline;
+}
+#topbar{
+	margin-right:10px;
+}
+#footer_table, #header_table{
+	width:1000px; 
+}
+.footer_td{
+	padding-bottom:25px;
+	padding-top:10px;
+	color:red;
+}
+.footer td{
+	padding-bottom:5px;	
+}
+.footer_header th{
+	padding:20px 0px;
+	padding-bottom:10px;
+}
+#footer_head{
+	color:white;
+}
+#footer_head a:hover{
+	text-decoration:underline;
+}
+a{
+	text-decoration:none;
+	color:#00BFFF;
+}
+#footer_img{
+	width:25px;
+	height:25px;
+}
+#lightmaker a{
+	color:#8dc63f
+}
+table, td{
+	border-collapse:collapse;
+}
+.div_main{
+	width:1000px; 
+	height:2200px; 
+	margin:0 auto;
+}
+.div_main_phimle{
+	width:1000px; 
+	height:3050px; 
+	margin:0 auto;
+}
+.menu{
+	height:36px;
+	margin:0;
+	padding:0;
+	width:1000px;
+}
+.menu li{
+	float:left;
+	padding:10px 16px;
+	padding-right:16px;
+	list-style-type:none;
+	background-color:#000;
+	color:white;
+}
+.clear{
+	clear:both;
+}
+.menu img{
+	height:100%;
+}
+.menu #home{
+	padding:0;
+	margin:0;				
+	height:38px;
+}
+
+.menu .active{
+	background:#a21d0a;
+}
+.dropbtn{
+	font-weight:bold;				
+	font-size:16px;
+	font-family:arial;
+}
+.dropdown{
+	position:relative;
+	display:inline-block;	
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	margin-top:10px;
+	min-width:160px;
+	z-index:9;
+}
+#tb3{
+	width:150px;
+}
+.dropdown-content a{
+	display:block;
+	text-decoration:none;
+	color:white;
+}
+.dropdown-content table{
+	width:800px;				
+}
+.dropdown-content table td{
+	padding:10px;
+	background-image:url("bgtrans.png");
+	text-transform: none !important;
+	color: #bbb;
+	font-size: 11px !important;
+
+}
+.dropdown-content table td:hover{
+	color:#8c1b0a;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+.menu li:hover{
+	background-color:#8c1b0a;
+}
+#home:hover{
+	opacity:1;
+}
+.footer a{
+	color:#3ebee7;
+}
+.footer a:hover{
+	text-decoration:underline;
+}
+.web_content{
+	height:100%;
+	width:100%;
+	margin-top:2px;
+}
+.web_header{
+	width:100%; 
+	background-color:#0f0f0f; 
+	height:30px;
+	padding-top:10px;
+}
+.noidungchinh{
+	height:100%;
+	width:70%;
+	background:#141414;
+	float:left;
+	margin-right:10px;
+}
+.banner_div{
+	border:1px solid black;
+	width:699px;
+	height:300px;
+}
+.banner_div_title{
+	border:1px solid black;
+	width:699px;
+	height:42px;
+}
+.phimhot2017{
+	width:699px;
+	height:42px;
+	background:#000;
+	color:#a21d0a;
+	padding-top:10px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:15px;
+	padding-left:10px;
+}
+.phimhot2017 a{
+	font-style:normal;
+	font-size:11px;
+	color:#666;
+}
+.phimhot2017 span{
+	float:right;
+	padding-right:10px;
+}
+.box-hot{
+	width: 700px;
+	height: auto;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+.banner_slideshow{
+	background:#000;
+	width:100%;
+	height:260px;
+	display: block;
+	position: relative;
+	float: none;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	z-index: auto;
+	margin:0;
+	overflow: hidden;
+	text-align: start;
+}
+.banner_slideshow img{
+	width:170px;
+	height:260px;
+}
+.banner_slideshow li{
+	float:left;
+	padding-right:5px;
+	height: 260px;
+	width: 175px;
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+.banner_slideshow ul#listfilm1{
+	width:3000px; 
+	margin:0; 
+	padding:0;
+	list-style:none;
+	position:absolute;
+	white-space: nowrap;
+	display: inline;
+	overflow: visible;
+	text-overflow: ellipsis;
+	text-align: left;
+	transition: transform 1s;
+}
+.banner_slideshow .img_div{
+	width:170px;
+	height:260px;
+	background:red;
+	float:left;
+	margin-left:3px;
+}
+.banner_slideshow .img_div span{
+	width:116px;
+	height:16px;
+	background:#a21d0a;
+	color:white;
+	border-radius:30px;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:2px;
+	padding-left:5px;
+	position:absolute;
+	top:5px;
+}
+.banner_slideshow .img_div .tenphim{
+	width:100%;
+	height:50px;
+	background:rgba(0,0,0,0.7);
+	position:relative;
+	bottom:60px;
+	padding-top:6px;
+}
+.banner_slideshow .img_div .tenphim h2, a{
+	font-size:13px;
+	text-align:center;
+	color:white;
+	padding:0;
+	margin:0;
+}
+.banner_slideshow .img_div .tenphim p{
+	font-size:13px;
+	text-align:center;
+	color:#888;
+	padding:0;
+	margin-top:5px;
+}
+.banner_slideshow .img_div .div_span{
+	margin-left:5px;
+}
+.banner_slideshow .banner_prev_button{
+	width:35px;
+	height:43px;
+	background-image:url("prev_button.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	top:110px;
+	opacity:0.6;
+	z-index: 10;
+	left:0px;
+}
+
+.banner_slideshow .banner_prev_button:hover{
+	opacity:1;
+}
+.banner_slideshow .banner_next_button{
+	width:35px;
+	height:43px;
+	background-image:url("next_button.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	top:110px;
+	left:660px;
+	right:0px;
+	opacity:0.6;
+	float:left;
+	z-index: 10;
+}
+.banner_slideshow .banner_next_button:hover{
+	opacity:1;
+}
+.khoianh_body{
+	width:350px;
+	height:515px;
+	background:#000;
+	float:left;
+	padding:10px 5px;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+.khoianh_body img{
+	width:345px;
+}
+.tabs_phimbomoi_dahoanthanh{
+	width:330px;
+	height:510px;
+	float:right;
+	margin-top:10px;
+	margin-right:2px;
+}
+
+.slide_bar{
+	float:left;
+	height:100%;
+	width:290px;
+}
+.tag_cloud{
+	height:80px;
+	width:295px;
+	background-color:#000;
+}
+#tag_cloud{
+	display:block;
+	padding:10px;
+	font-weight:bold;
+	font-style:italic;
+	color:#a21d0a;
+}
+#array{
+	display:block;
+	padding:10px;
+	color:#666;
+	font-size:11px;
+}
+.coin_base{
+	height:250px;
+	width:295px;
+}
+.div_phimmoi{
+	width:700px;
+	height:1300px;
+	clear:both;
+	background:black;
+}
+.div_phim{
+	width:700px;
+	height:3000px;
+	clear:both;
+	background:black;
+}
+.page_number{
+	width:100%;
+	clear:both;
+	color:#555;
+	font-size:12px;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	padding-top:20px;
+}
+.page_number a{
+	color:#555;
+}
+.page_number span{
+	margin-right:10px;
+	padding:2px 5px;
+}
+.page_number span:hover{
+	background:#1d1d1d;
+}
+.page_number_special{
+	background:#1d1d1d;
+}
+.div_phimmoi_title{
+	width:700px;
+	height:35px;
+	background:black;
+	border:none;
+}
+.div_boloc{
+	width:700px;
+	height:35px;
+	background:black;
+	border:none;
+	padding-left:10px;
+}
+.div_boloc .div_boloc_select{
+	width:150px;
+	height:25px;
+	padding-top:10px;
+	float:left;
+	margin-left:2px;
+}
+.div_boloc .div_boloc_select span{
+	float:left;
+	color:#666;
+	margin-right:3px;
+	font-size:11px;
+	padding-top:5px;
+}
+.div_boloc .div_boloc_select select{
+	float:left;
+	background:#999999;
+	width:100px;
+}
+.div_boloc .div_boloc_select option{
+	background:#999999;
+}
+.div_boloc .button_duyet{
+	width:50px;
+	height:30px;
+	background:#8C1B0A;
+	border:none;
+	color:white;
+	font-weight:bold;
+	margin-top:5px;
+	cursor:pointer;
+}
+.div_phimmoi_title #red_tamggiac{
+	width:8px;
+	height:8px;
+	position:absolute;
+	float:left;
+}
+.div_phimmoi_title .icon_cuonbang{
+	width:25px;
+	height:35px;
+	background:black;
+	background-repeat:no-repeat;
+	float:left;
+}
+.div_phimmoi_title .icon_cuonbang img{
+	width:20px;
+	height:20px;
+	float:right;
+	padding-top:8px;
+}
+.div_phimmoi_title span{
+	color: white; 
+	font-weight:bold;
+	width:100px; 
+	height:30px; 
+	vertical-align:middle;
+	font-size:13px;
+}
+.div_phimmoi_title .title_phimmoi{
+	width:100px; 
+	height:30px; 
+	vertical-align:middle;
+	padding-left:10px;
+	float:left;
+	padding-top:6px;
+}
+.list_movies_update{
+	width:560px;
+	height:35px;
+	background:black;
+	float:left;
+	padding-top:3px;
+}
+.list_movies_update .list_movies_update_button{
+	width:auto;
+	min-width:80px;
+	height:25px;
+	color:white;
+	background:#2e2e2e;
+	margin-right:10px;
+	float:left;
+	border-radius:20px;
+	margin-top:2px;
+	font-size:12px;
+	border:none;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.list_movies_update .list_movies_update_button.active{
+		background:#a21d0a;
+}
+.update_button{
+	border:none;
+	width:auto;
+	min-width:70px;
+	height:16px;
+	color:white;
+	background:#2e2e2e;
+}
+.div_phimmoi_content{
+	width:700px;
+	height:1255px;
+	margin-top:2px;
+	padding-top:3px;
+}
+.div_phimmoi_content .phimmoi_div_frame{
+	width:166px;
+	height:275px;
+	background:black;
+	margin-left:3px;
+	margin-right:3px;
+	padding-top:10px;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+.div_phimmoi_content .phimmoi_div_frame:hover{
+	background:#222;
+}
+.div_phimmoi_content .phimmoi_div_img{
+	width:146px;
+	height:195px;
+	background:green;
+	margin:0 auto;
+}
+.div_phimmoi_content .phimmoi_div_img img{
+	width:146px;
+	height:195px;
+}
+.phimmoi_div_title{
+	width:146px;
+	height:65px;
+	margin:0 auto;
+	text-align:center;
+}
+.phimmoi_div_title .phimmoi_tenphim_vn{
+	color:#8dc63f;
+	font-size:12px;
+	font-weight:bold;
+}
+.phimmoi_div_title .phimmoi_tenphim_en{
+	color:#8b8b8b;
+	font-size:12px;
+	font-weight:bold;
+	line-height:16px;
+}
+.div_phimmoi_content .phimmoi_div_frame .status_phim{
+	background:#a21d0a;
+	color:white;
+	padding:3px 5px;
+	border-radius:3px;
+	font-size:11px;
+	font-weight:bold;
+	position:relative;
+	top:169px;
+}
+.link_phimmoi{
+	color:white;
+	font-weight:bold;
+	float:right;
+	margin-top:50px;
+	margin-right:30px;
+}
+.link_phimmoi:hover{
+	text-decoration:underline;
+}
+.topup{
+	width:50px;
+	height:50px;
+	cursor:pointer;
+	position:fixed;
+	right:30px;
+	bottom:30px;
+}
+.topup .img1{
+	width:50px;
+	height:50px;
+}
+.topup .img2{
+	width:50px;
+	height:48px;
+	display:none;
+}
+.topup:hover .img1{
+	display:none;
+}
+.topup:hover .img2{
+	display:block;
+}

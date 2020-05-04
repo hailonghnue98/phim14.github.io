@@ -1,0 +1,97 @@
+
+.button_frame{
+	width:330px;
+	height:42px;
+	background:blue;
+}
+.tab_button2{
+	width:165px;
+	height:42px;
+	border:none;
+	float:left;
+	color:#a21d0a;
+	font-weight:bold;
+	background:#000;
+	cursor:pointer;
+}
+.tab_button2.active{
+	background:#1B1B1B;
+	color:#ddd;
+}
+.tabcontent2{
+	width:330px;
+	height:470px;
+	background:black;
+	display:none;
+	color:white;
+	padding:0;
+}
+.tabcontent3{
+	display:none;
+}
+.tabcontent2 ul{
+	margin:0;
+	padding-left:30px;
+	padding-top:20px;
+}
+.tabcontent2 li{
+	list-style:none;
+	margin-bottom:15px;
+}
+.tabcontent2 li::before{
+	content:"■ ";
+	color:red;
+}
+.tabcontent2 a{
+	color:white;
+	text-decoration:none;
+	font-size:10px;
+}
+.tabcontent2 span{
+	color:#9ACD32;
+	margin-left:10px;
+	font-size:11px;
+}
+.tabcontent2 .han{
+	width:38px;
+	height:10px;
+	background:#222D58;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	border-radius:5px;
+	border-radius:5px;
+	float:right;
+	margin-top:-3px;
+	margin-right:10px;
+	font-size:11px;
+}
+.tabcontent2 .trung{
+	width:38px;
+	height:10px;
+	background:#5A2A2E;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:8px;
+	border-radius:5px;
+	border-radius:5px;
+	float:right;
+	margin-top:-3px;
+	margin-right:10px;
+	font-size:11px;
+}
+.tabcontent2 .thai{
+	width:38px;
+	height:10px;
+	background:#540DA0;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	border-radius:5px;
+	border-radius:5px;
+	float:right;
+	margin-top:-3px;
+	margin-right:10px;
+	font-size:11px;
+}
